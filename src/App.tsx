@@ -1,15 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import './bootstrap.min.css';
-import HeaderComponent from './components/Header/Header';
-import { Navbar } from 'react-bootstrap';
+import Header from './components/Header/Header';
+import Typography from './components/Typography/Typography';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <HeaderComponent></HeaderComponent>
+      <Header></Header>
+      <Typography></Typography>
     </div>
   );
 }
