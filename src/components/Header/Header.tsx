@@ -6,11 +6,11 @@ interface HeaderProps {}
 
 const Header: FC<HeaderProps> = () => (
   <div>
-<header className="jumbotron subhead" id="overview">
+<header className="subhead pt-4" id="overview">
   <div className="row">
     <div className="span6">
       <h1>
-            <img src="img/test/7upspot.gif" />
+            <img src="img/test/7upspot.gif" alt="" />
           {/*
         &nbsp;<font color="#FF0000">G</font>
         <font color="#FF5A00">e</font>
@@ -77,6 +77,7 @@ const Header: FC<HeaderProps> = () => (
       <li>
         <a href="#buttons">
           <img
+            alt=""
             className="pull-left"
             style={{ marginTop: "-5px" }}
             src="img/test/hot.gif"
@@ -93,6 +94,7 @@ const Header: FC<HeaderProps> = () => (
       <li>
         <a href="#miscellaneous">
           <img
+            alt=""
             className="pull-left"
             style={{ marginTop: "-3px" }}
             src="img/test/new.gif"

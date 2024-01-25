@@ -295,7 +295,7 @@ const Typography: FC<TypographyProps> = () => (
   </center>
   {/* Buttons
 ================================================== */}
-  <section id="buttons" style={{ paddingTop: 0 }}>
+  <section id="buttons" style={{ paddingTop: 0, display: 'none' }}>
     <div className="page-header">
       <h1>Buttons</h1>
     </div>
